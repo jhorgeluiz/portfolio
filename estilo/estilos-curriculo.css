@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-/* ====================CAPA TELA GRANDE==================== */
+/* ====================CAPA TELA PEQUENA==================== */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
     
     body {
-        background-image: url("../imagens/fotofundo1.jpg");
+        background-image: url("../imagens/fundo3.png");
         background-repeat: no-repeat;
         background-position: center; 
         background-attachment: fixed;
@@ -35,7 +35,7 @@
     .container > h1 {
         font-family: Arial, Helvetica, sans-serif;
         text-shadow: 0px 5px 5px black;
-        font-size: 80px;
+        font-size: 60px;
         color: white;
         margin: 0px;
     }
@@ -43,10 +43,8 @@
     header > h2 {
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
-        font-size: 30px;
         padding: 5px;
-        margin-top: 15px;
-        margin-bottom: 0px;
+        margin: 0px;
     }
     header > h4 {
         font-family: Arial, Helvetica, sans-serif;
@@ -55,64 +53,46 @@
         padding: 5px;
     }
 
-    nav {
-        background-image: linear-gradient(to left, #79f8e986, #236a6288); 
-        box-shadow: 0px 3px 7px black;
-        border-radius: 10px;
-        height: 40px;
-        margin: auto;
-        margin-top: 13px;
-    }
-    .link {
-        margin: auto;
-        display: inline-block;
-        background-color: #c9cece;
-        box-shadow: 0px 3px 7px black;
-        font-size: 20px;
-        margin-top: 4px;
-        margin-right: 10px;
-        height: 30px;
-        width: 100px;
-        border-radius: 10px;
-        text-align: center;
-        border-style: none;
-        position: relative;
-        left: 480px;
-        cursor: pointer;
-    }
-
-    .link:hover {
-        background-color: #a2a8a8;
-        transition-duration: .8s;
-    }
-
     main {
         margin: auto;
-        margin-top: 40px;
-        max-width: 1000px;
+        margin-top: 20px;
+        max-width: 375px; 
     }
 
-    section {
+    .caixadiv {
         background-image: linear-gradient(to top, #236a6285, #79f8e983);
         border-radius: 20px;
-        position: relative;
         top: 20px;
-        height: 360px;
+        height: 375px;
     }
-
-    p.apresent {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: aliceblue;
-        position: relative;
-        text-align: center;
-        font-size: 40px;
+    .caixadiv > h1 {
+        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
         border-radius: 20px;
-        margin: 5px;
-        top: 20px;
-        padding: 10px;
-        height: 300px;
+        text-shadow: 0px 5px 5px black;
+        text-align: center;
+        color: #f7f2f2;
+        position: relative;
+        top: 10px;
     }
-}
+    .caixadiv > h3 {
+        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
+        border-radius: 20px;
+        text-shadow: 0px 5px 5px black;
+        text-align: center;
+        color: #f7f2f2;
+    }
+    a > img {
+        background-image: linear-gradient(to top, #2f645ee7, #76c9bf); 
+        border-radius: 10px;
+        box-shadow: 5px 5px 8px black;
+        width: 100px;
+        transform: translateX(130px);
+    }
+    a > img:hover {
+        background-image: linear-gradient(to top, #09ebd0, #042b26);
+    }
+} 
+
 
 /* ====================CAPA TELA MEDIA==================== */
 
@@ -169,71 +149,56 @@
         padding: 5px;
     }
     
-    nav {
-        background-image: linear-gradient(to left, #79f8e986, #236a6288); 
-        box-shadow: 0px 3px 7px black;
-        border-radius: 10px;
-        height: 40px;
-        margin: auto;
-        margin-top: 13px;
-    }
-    .link {
-        margin: auto;
-        display: inline-block;
-        background-color: #c9cece;
-        box-shadow: 0px 3px 7px black;
-        font-size: 20px;
-        margin-top: 4px;
-        margin-right: 10px;
-        height: 30px;
-        width: 100px;
-        border-radius: 10px;
-        text-align: center;
-        border-style: none;
-        position: relative;
-        left: 230px;
-    }
-    
-    .link:hover {
-        background-color: #a2a8a8;
-        transition-duration: .8s;
-    }
-    
     main {
         margin: auto;
         margin-top: 40px;
         max-width: 600px;
     }
     
-    section {
+    .caixadiv {
         background-image: linear-gradient(to top, #236a6285, #79f8e983);
         border-radius: 20px;
-        position: relative;
         top: 20px;
         height: 300px;
         width: 667px;
     }
-    
-    p.apresent {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: aliceblue;
-        position: relative;
-        text-align: center;
-        font-size: 30px;
+
+    .caixadiv > h1 {
+        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
         border-radius: 20px;
-        margin: 5px;
-        top: 20px;
-        padding: 10px; 
+        text-shadow: 0px 5px 5px black;
+        text-align: center;
+        color: #f7f2f2;
+        position: relative;
+        top: 10px;
     }
+    .caixadiv > h3 {
+        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
+        border-radius: 20px;
+        text-shadow: 0px 5px 5px black;
+        text-align: center;
+        color: #f7f2f2;
+    }
+    a > img {
+        background-image: linear-gradient(to top, #2f645ee7, #76c9bf); 
+        border-radius: 10px;
+        box-shadow: 5px 5px 8px black;
+        width: 100px;
+        transform: translateX(250px);
+    }
+    a > img:hover {
+        background-image: linear-gradient(to top, #09ebd0, #042b26);
+    }
+    
+    
 }
 
+/* ====================CAPA TELA GRANDE==================== */
 
-/* ====================CAPA TELA PEQUENA==================== */
-
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 992px) {
     
     body {
-        background-image: url("../imagens/fundo3.png");
+        background-image: url("../imagens/fotofundo1.jpg");
         background-repeat: no-repeat;
         background-position: center; 
         background-attachment: fixed;
@@ -263,7 +228,7 @@
     .container > h1 {
         font-family: Arial, Helvetica, sans-serif;
         text-shadow: 0px 5px 5px black;
-        font-size: 60px;
+        font-size: 80px;
         color: white;
         margin: 0px;
     }
@@ -271,8 +236,10 @@
     header > h2 {
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
+        font-size: 30px;
         padding: 5px;
-        margin: 0px;
+        margin-top: 15px;
+        margin-bottom: 0px;
     }
     header > h4 {
         font-family: Arial, Helvetica, sans-serif;
@@ -281,60 +248,47 @@
         padding: 5px;
     }
 
-    nav {
-        background-image: linear-gradient(to left, #79f8e986, #236a6288); 
-        box-shadow: 0px 3px 7px black;
-        border-radius: 10px;
-        height: 40px;
-        margin: auto;
-        margin-top: 25px;
-    }
-    .link {
-        margin: auto;
-        position: relative;
-        display: inline-block;
-        background-color: #c9cece;
-        box-shadow: 0px 3px 7px black;
-        font-size: 20px;
-        margin-top: 4px;
-        margin-right: 10px;
-        height: 30px;
-        width: 100px;
-        left: 25px;
-        border-radius: 10px;
-        text-align: center;
-        border-style: none;
-    }
-    
-    .link:hover {
-        background-color: #a2a8a8;
-        transition-duration: .8s;
-    }
-
     main {
         margin: auto;
         margin-top: 40px;
-        max-width: 375px; 
+        max-width: 1000px;
     }
 
-    section {
+    .caixadiv {
         background-image: linear-gradient(to top, #236a6285, #79f8e983);
         border-radius: 20px;
-        position: relative;
         top: 20px;
-        height: 375px;
+        height: 360px;
     }
 
-    p.apresent {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: aliceblue;
-        position: relative;
-        text-align: center;
-        font-size: 25px;
+    .caixadiv > h1 {
+        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
         border-radius: 20px;
-        margin: 5px;
-        top: 20px;
-        padding: 10px;
+        text-shadow: 0px 5px 5px black;
+        text-align: center;
+        color: #f7f2f2;
+        position: relative;
+        top: 10px;
     }
-}    
-    
+    .caixadiv > h3 {
+        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
+        border-radius: 20px;
+        text-shadow: 0px 5px 5px black;
+        text-align: center;
+        color: #f7f2f2;
+    }
+    a > img {
+        background-image: linear-gradient(to top, #2f645ee7, #76c9bf); 
+        border-radius: 10px;
+        box-shadow: 5px 5px 8px black;
+        width: 100px;
+        transform: translateX(440px);
+    }
+    a > img:hover {
+        background-image: linear-gradient(to top, #09ebd0, #042b26);
+    }
+
+  
+}
+
+
