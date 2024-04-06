@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* CAPA PAISAGEM */
+/* ====================CAPA TELA GRANDE==================== */
 
 @media screen and (min-width: 992px) {
     
@@ -116,6 +116,7 @@ p.apresent {
 }
 
 }
+/* ====================CAPA TELA MEDIA==================== */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     
@@ -194,7 +195,7 @@ p.apresent {
         text-align: center;
         border-style: none;
         position: relative;
-        left: 480px;
+        left: 230px;
     }
     
     .link:hover {
@@ -226,7 +227,7 @@ p.apresent {
         margin: 5px;
         top: 20px;
         padding: 10px;
-        height: 43vh;
+        height: 280px;
         
     }
     
