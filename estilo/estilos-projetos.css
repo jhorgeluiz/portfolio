@@ -54,53 +54,35 @@
         padding: 5px;
     }
 
+    
+
     main {
         margin: auto;
-        margin-top: 20px;
+        margin-top: 40px;
         max-width: 375px; 
     }
 
-    .caixadiv {
+    section {
         background-image: linear-gradient(to top, #236a6285, #79f8e983);
         border-radius: 20px;
+        position: relative;
         top: 20px;
         height: 375px;
     }
-    .caixadiv > h1 {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        border-radius: 20px;
-        text-shadow: 0px 5px 5px black;
-        box-shadow: 2px 2px 8px black;
+
+    p.apresent {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: aliceblue;
+        position: relative;
         text-align: center;
-        color: #f7f2f2;
-        position: relative;
-        top: 10px;
-    }
-
-    .containerzap,.containergithub,.containerinstagram,.containerlinkedin {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62);
-        box-shadow: 1px 1px 8px black;
-        text-shadow: 0px 5px 5px black;
+        font-size: 25px;
         border-radius: 20px;
-        margin-top: 20px;
-        width: 250px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: 60px;
+        margin: 5px;
+        top: 20px;
+        padding: 10px;
     }
-    .zap,.github,.instagram,.linkedin {
-        margin: 10px;
-        display: block;
-        border-radius: 50px;
-        width: 30px;
-    }
-    h3 {  /* todos */
-        color: white;
-    }
+}    
 
-}
 
 
 /* ====================CAPA TELA MEDIA==================== */
@@ -158,56 +140,33 @@
         padding: 5px;
     }
     
+   
     main {
         margin: auto;
-        margin-top: 20px;
+        margin-top: 40px;
         max-width: 600px;
-        position: relative;
-        right: 30px;
     }
     
-    .caixadiv {
+    section {
         background-image: linear-gradient(to top, #236a6285, #79f8e983);
         border-radius: 20px;
+        position: relative;
+        top: 20px;
         height: 300px;
         width: 667px;
     }
-
-    .caixadiv > h1 {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        border-radius: 20px;
-        text-shadow: 0px 5px 5px black;
+    
+    p.apresent {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: aliceblue;
+        position: relative;
         text-align: center;
-        color: #f7f2f2;
-        position: relative;
-        top: 10px;
-    }
-
-    .containerzap,.containergithub,.containerinstagram,.containerlinkedin {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62);
-        box-shadow: 1px 1px 8px black;
-        text-shadow: 0px 5px 5px black;
+        font-size: 30px;
         border-radius: 20px;
-        margin-top: 20px;
-        margin: 10px;
-        width: 250px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        left: 60px;
+        margin: 5px;
+        top: 20px;
+        padding: 10px; 
     }
-    .zap,.github,.instagram,.linkedin {  /* imagens */
-        margin: 10px;
-        border-radius: 50px;
-        width: 30px;
-    }
-    h3 {  /* todos */
-        color: white;
-    }
-    
-    
-    
 }
 
 /* ====================CAPA TELA GRANDE==================== */
@@ -267,47 +226,32 @@
 
     main {
         margin: auto;
-        margin-top: 20px;
+        margin-top: 40px;
         max-width: 1000px;
     }
 
-    .caixadiv {
+    section {
         background-image: linear-gradient(to top, #236a6285, #79f8e983);
         border-radius: 20px;
+        position: relative;
         top: 20px;
         height: 360px;
     }
 
-    .caixadiv > h1 {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        border-radius: 20px;
-        text-shadow: 0px 5px 5px black;
+    p.apresent {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: aliceblue;
+        position: relative;
         text-align: center;
-        color: #f7f2f2;
-        position: relative;
-        top: 10px;
-    }
-
-    .containerzap,.containergithub,.containerinstagram,.containerlinkedin {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62);
-        box-shadow: 1px 1px 8px black;
-        text-shadow: 0px 5px 5px black;
+        font-size: 40px;
         border-radius: 20px;
-        margin-top: 20px;
-        margin: 10px;
-        margin-right: 100px;
-        width: 250px;
-        display: inline-flex;
-        position: relative;
-        left: 200px;
+        margin: 5px;
+        top: 20px;
+        padding: 10px;
+        height: 300px;
     }
-    .zap,.github,.instagram,.linkedin {  /* imagens */
-        margin: 10px;
-        border-radius: 50px;
-        width: 30px;
-    }
-    h3 {  /* todos */
-        color: white;
-    }
-   
 }
+
+
+
+   
