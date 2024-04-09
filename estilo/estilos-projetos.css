@@ -58,28 +58,56 @@
 
     main {
         margin: auto;
-        margin-top: 40px;
+        margin-top: 20px;
         max-width: 375px; 
     }
 
     section {
         background-image: linear-gradient(to top, #236a6285, #79f8e983);
+        box-shadow: 3px 3px 8px;
         border-radius: 20px;
         position: relative;
-        top: 20px;
+        
         height: 375px;
     }
 
-    p.apresent {
+    .tituloprojeto {
         font-family: Arial, Helvetica, sans-serif;
-        background-color: aliceblue;
+        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
+        color: white;
+        box-shadow: 1px 1px 3px black;
+        text-shadow: 3px 3px 8px black;
         position: relative;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
         border-radius: 20px;
         margin: 5px;
         top: 20px;
-        padding: 10px;
+        
+    }
+
+    .containerlogin {
+        background-color: #d7dfde9d;
+        box-shadow: 3px 3px 8px black;
+        border-radius: 20px;
+        position: relative;
+        top: 35px;
+        height: 265px;
+        display: flex; 
+    }
+    .imglogin {
+        margin: 10px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-style: none;
+        box-shadow: 3px 3px 8px black;
+    }
+    p.textologin {
+        
+        margin-left: 10px;
+        text-align: center;
+        
+        
     }
 }    
 
