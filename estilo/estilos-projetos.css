@@ -54,8 +54,6 @@
         padding: 5px;
     }
 
-    
-
     main {
         margin: auto;
         margin-top: 20px;
@@ -67,7 +65,6 @@
         box-shadow: 3px 3px 8px;
         border-radius: 20px;
         position: relative;
-        
         height: 375px;
     }
 
@@ -83,10 +80,9 @@
         border-radius: 20px;
         margin: 5px;
         top: 20px;
-        
     }
 
-    .containerlogin {
+    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais {
         background-color: #d7dfde9d;
         box-shadow: 3px 3px 8px black;
         border-radius: 20px;
@@ -95,22 +91,18 @@
         height: 265px;
         display: flex; 
     }
-    .imglogin {
+    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais {
         margin: 10px;
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
         border-style: none;
         box-shadow: 3px 3px 8px black;
     }
-    p.textologin {
-        
+    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais {
         margin-left: 10px;
         text-align: center;
-        
-        
     }
 }    
-
 
 
 /* ====================CAPA TELA MEDIA==================== */
