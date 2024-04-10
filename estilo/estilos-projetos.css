@@ -62,10 +62,11 @@
 
     section {
         background-image: linear-gradient(to top, #236a6285, #79f8e983);
+        margin-bottom: 20px;
         box-shadow: 3px 3px 8px;
         border-radius: 20px;
         position: relative;
-        height: 375px;
+        height: 480px;
     }
 
     .tituloprojeto {
@@ -83,13 +84,13 @@
     }
 
     .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Impact';
         background-color: #d7dfde9d;
         box-shadow: 3px 3px 8px black;
         border-radius: 20px;
         position: relative;
         top: 35px;
-        height: 265px;
+        height: 400px;
         display: flex; 
     }
     .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais {
@@ -98,17 +99,22 @@
         border-bottom-right-radius: 30px;
         border-style: none;
         box-shadow: 3px 3px 8px black;
+        width: 150px;
+        height: 250px;
+        position: relative;
+        top: 40px;
     }
     p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais {
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 10px;
         text-align: center;
+        
     }
     .botaovisitar {
         background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
         font-family: Arial, Helvetica, sans-serif;
         color: white;
-        transform: translateX(100px);
+        transform: translateX(140px);
         text-shadow: 3px 3px 8px black;
         box-shadow: 3px 3px 8px black;
         border-style: none;
