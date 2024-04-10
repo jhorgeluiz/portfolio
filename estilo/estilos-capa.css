@@ -63,6 +63,7 @@
         margin: auto;
         margin-top: 13px;
     }
+   
     .link {
         margin: auto;
         display: inline-block;
@@ -78,12 +79,14 @@
         border-style: none;
         position: relative;
         left: 480px;
-        cursor: pointer;
     }
 
     .link:hover {
         background-color: #a2a8a8;
         transition-duration: .8s;
+    }
+    .link:active {
+        background-color: #236A62;
     }
 
     main {

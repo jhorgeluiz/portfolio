@@ -120,6 +120,7 @@
         border-style: none;
         border-radius: 5px;
         height: 25px;
+        cursor: pointer;
     }
     .botaovisitar:active {
         background-image: linear-gradient(to top, #356e68e7, #4ad6c6);
@@ -231,19 +232,23 @@
     }
     p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais {
         font-family: Arial, Helvetica, sans-serif;
-        margin-left: 10px;
+        margin-left: 20px;
         text-align: center;
+        width: 400px;
+        position: relative;
+        top: 40px;
     }
     .botaovisitar {
         background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
         font-family: Arial, Helvetica, sans-serif;
         color: white;
-        transform: translateX(100px);
+        transform: translateX(170px);
         text-shadow: 3px 3px 8px black;
         box-shadow: 3px 3px 8px black;
         border-style: none;
         border-radius: 5px;
         height: 25px;
+        cursor: pointer;
     }
     .botaovisitar:active {
         background-image: linear-gradient(to top, #356e68e7, #4ad6c6);
@@ -357,18 +362,20 @@
     p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais {
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 10px;
-        text-align: center;
+        text-align: justify;
+        width: 400px;
     }
     .botaovisitar {
         background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
         font-family: Arial, Helvetica, sans-serif;
         color: white;
-        transform: translateX(100px);
+        transform: translateX(280px);
         text-shadow: 3px 3px 8px black;
         box-shadow: 3px 3px 8px black;
         border-style: none;
         border-radius: 5px;
         height: 25px;
+        cursor: pointer;
     }
     .botaovisitar:active {
         background-image: linear-gradient(to top, #356e68e7, #4ad6c6);
