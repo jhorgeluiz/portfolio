@@ -5,10 +5,7 @@
 @media screen and (min-width: 992px) {
     
     body {
-        background-image: url("../imagens/fundooriginal.jpg");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-attachment: fixed;
+        background-color: #83725e8c;
         margin: 0px;
     }
     header {      /* principal */
@@ -122,10 +119,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
     
     body {
-        background-image: url("../imagens/fotofundo1.jpg");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-attachment: fixed;
+        background-color: #83725e8c;
         margin: 0px;
     }
     header {      /* principal */
@@ -236,10 +230,7 @@
 @media screen and (min-width: 375px) and (max-width: 768px) {
     
     body {
-        background-image: url("../imagens/fundo3.png");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-attachment: fixed;
+        background-color: #83725e8c;
         margin: 0px;
     }
     header {      /* principal */
