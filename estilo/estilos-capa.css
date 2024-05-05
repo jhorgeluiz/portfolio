@@ -263,6 +263,7 @@
     body {
         background-color: whitesmoke;
         margin: 0px;
+        
     }
     header {      /* principal */
         min-width: 375px;
@@ -371,6 +372,10 @@
         margin-top: 25px;
     }
 
+    main {
+        height: 100vh;
+    }
+
     p.apresent {
         font-family: Arial, Helvetica, sans-serif;
         margin: auto;
@@ -380,7 +385,7 @@
         color: #1f1e1e;
         text-align: center;
         font-size: 20px; 
-        height: 100vh;
+        
     }
 
     footer {
