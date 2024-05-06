@@ -57,6 +57,8 @@
 
     /* ------inicio nav------ */
     nav {
+        box-shadow: 1px 0.5px 5px 0.5px #8a8787;
+        margin: 0px;
         display: flex;
         justify-content: center;
         margin: 10px;
@@ -211,6 +213,7 @@
 
     /* ------inicio nav------ */
     nav {
+        box-shadow: 1px 0.5px 5px 0.5px #8a8787;
         margin-top: 10px;
         margin: 13px;
     }
@@ -356,6 +359,7 @@
 
     /* ------inicio nav------ */
     nav {
+        box-shadow: 1px 0.5px 5px 0.5px #8a8787;
         margin: 10px;
         margin-top: 13px;
     }
