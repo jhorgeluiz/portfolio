@@ -6,50 +6,46 @@
 @media screen and (min-width: 375px) and (max-width: 768px) {
     
     body {
-        background-image: url("../imagens/fundo3.png");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-attachment: fixed;
+        background-color: #aaa8a8;
         margin: 0px;
     }
-    header {      /* principal */
+    header {      
         min-width: 375px;
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        box-shadow: 0px 2px 5px black;
-        border-bottom-left-radius:  30px;
-        border-bottom-right-radius: 30px;
+        background-image: linear-gradient(to top, #0a191e,#0a191e); 
         height: 210px;
     }
 
-    .container {  /* header */
-        display: flex;  /* anotar */
-        align-items: center;      /* anotar */
-        justify-content: center; /* anotar */
+    .container {   /* principal */
+        display: flex;  
+        align-items: center;      
+        justify-content: center; 
     }
     .container > img {
         box-shadow: 0px 3px 7px black;
         margin-top: 10px;
         width: 100px;
-        background-color: aliceblue;
+        background-color: #aaa8a8;
         border-radius: 100px;
     }
     .container > h1 {
         font-family: Arial, Helvetica, sans-serif;
         text-shadow: 0px 5px 5px black;
         font-size: 60px;
-        color: white;
+        color: antiquewhite;
         margin: 0px;
     }
 
     header > h2 {
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
+        color: antiquewhite;
         padding: 5px;
         margin: 0px;
     }
     header > h4 {
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
+        color: antiquewhite;
         margin: 0px;
         padding: 5px;
     }
@@ -61,32 +57,33 @@
     }
 
     section {
-        background-image: linear-gradient(to top, #236a6285, #79f8e983);
+        
         margin-bottom: 20px;
-        box-shadow: 3px 3px 8px;
-        border-radius: 20px;
+        box-shadow: 1px 1px 5px;
+        
         position: relative;
-        height: 480px;
+        height: 490px;
     }
 
     .tituloprojeto {
         font-family: Arial, Helvetica, sans-serif;
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        color: white;
+        
+        color: antiquewhite;
         position: relative;
-        box-shadow: 1px 1px 3px black;
-        text-shadow: 3px 3px 8px black;
+        box-shadow: 1px 0.5px 5px 0.5px #8a8787;
+        text-shadow: 1px 1px 2px black;
         text-align: center;
         font-size: 20px;
-        border-radius: 20px;
+        border-radius: 5px;
+        padding: 8px;
         margin: 5px;
         top: 20px;
     }
 
     .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais {
         font-family: 'Impact';
-        background-color: #d7dfde9d;
-        box-shadow: 3px 3px 8px black;
+        
+        
         border-radius: 20px;
         position: relative;
         top: 35px;
@@ -108,23 +105,69 @@
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 10px;
         text-align: center;
+    }
+
+    /* ------inicio nav------ */
+    .botao {
         
-    }
-    .botaovisitar {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        transform: translateX(140px);
-        text-shadow: 3px 3px 8px black;
-        box-shadow: 3px 3px 8px black;
-        border-style: none;
-        border-radius: 5px;
-        height: 25px;
+        padding: 5px;
+        background-color: #0a191e;
+        border-radius: 6px;
+        border: .3px solid #00A97F;
+        box-shadow: 1px 1px 5px black;
+        transition: .5s;
+        position: relative;
+        left: 100px;
+        overflow: hidden;
         cursor: pointer;
+        z-index: 1;
+        font-weight: 200;
+        font-size: 15px;
+        font-family: 'Roboto', 'Segoe UI', sans-serif;
+        text-transform: uppercase;
+        color: #00A97F;
+        width: 140px;
     }
-    .botaovisitar:active {
-        background-image: linear-gradient(to top, #356e68e7, #4ad6c6);
+    
+    .botao::after, .botao::before {
+        content: '';
+        display: block;
+        height: 100%;
+        width: 100%;
+        transform: skew(90deg) translate(-50%, -50%);
+        position: absolute;
+        inset: 50%;
+        left: 25%;
+        z-index: -1;
+        transition: .8s ease-out;
+        background-color: #00A97F;
     }
+    
+    .botao::before {
+        top: -50%;
+        left: -25%;
+        transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+    }
+    
+    .botao:hover::before {
+        transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+    }
+    
+    .botao:hover::after {
+        transform: skew(45deg) translate(-50%, -50%);
+    }
+    
+    .botao:hover {
+        color: #0a191e;
+    }
+    
+    .botao:active {
+        background-color: #0a191e;
+        filter: brightness(.7);
+        transform: scale(.98);
+    }
+    /* ------fim nav------ */
+
 }    
 
 
