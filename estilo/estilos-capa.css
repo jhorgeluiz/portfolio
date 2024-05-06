@@ -4,9 +4,15 @@
 
 @media screen and (min-width: 992px) {
     
+    html {
+        height: 100%;
+    }
     body {
         background-color: whitesmoke;
         margin: 0px;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
     }
     header {      /* principal */
         min-width: 375px;
@@ -122,9 +128,11 @@
 
     p.apresent {
         font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 1px 0.5px 5px 0.5px black;
+        padding: 10px;
         margin: auto;
         position: relative;
-        top: 60px;
+        top: 20px;
         width: 700px;
         color: #1f1e1e;
         text-align: center;
@@ -133,10 +141,10 @@
 
     footer {
         background-color: #0a191e;
+        margin-top: auto;
         color: white;
         text-align: center;
-        padding: 10px;
-        margin-bottom: 0px;
+        
     }
 
     .footerlink {
@@ -149,17 +157,16 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     
-    
+    html {
+        height: 100%;
+    }
     body {
-        background-color: #83725e8c;
+        background-color: whitesmoke;
         margin: 0px;
     }
     header {      /* principal */
         min-width: 375px;
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        box-shadow: 0px 2px 5px black;
-        border-bottom-left-radius:  30px;
-        border-bottom-right-radius: 30px;
+        background-image: linear-gradient(to top, #0a191e, #0a191e); 
         height: 210px;
     }
     
@@ -179,7 +186,7 @@
         font-family: Arial, Helvetica, sans-serif;
         text-shadow: 0px 5px 5px black;
         font-size: 80px;
-        color: white;
+        color: antiquewhite;
         margin: 0px;
     }
     
@@ -187,6 +194,7 @@
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         font-size: 30px;
+        color: antiquewhite;
         padding: 5px;
         margin-top: 15px;
         margin-bottom: 0px;
@@ -194,39 +202,73 @@
     header > h4 {
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
+        color: antiquewhite;
         margin: 0px;
         padding: 5px;
     }
     
     nav {
-        background-image: linear-gradient(to left, #79f8e986, #236a6288); 
-        box-shadow: 0px 3px 7px black;
-        border-radius: 10px;
-        height: 40px;
-        margin: auto;
-        margin-top: 13px;
-    }
-    .link {
-        margin: auto;
-        display: inline-block;
-        background-color: #c9cece;
-        box-shadow: 0px 3px 7px black;
-        font-size: 20px;
-        margin-top: 4px;
-        margin-right: 10px;
-        height: 30px;
-        width: 100px;
-        border-radius: 10px;
-        text-align: center;
-        border-style: none;
-        position: relative;
-        left: 230px;
+        margin-top: 10px;
+        margin: 13px;
+        
     }
     
-    .link:hover {
-        background-color: #a2a8a8;
-        transition-duration: .8s;
+    /* ------------------------------------------------------- */
+    .botao {
+        padding: 0.8em 1.75em;
+        background-color: #0a191e;
+        border-radius: 6px;
+        border: .3px solid #00A97F;
+        transition: .5s;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        z-index: 1;
+        font-weight: 300;
+        font-size: 17px;
+        font-family: 'Roboto', 'Segoe UI', sans-serif;
+        text-transform: uppercase;
+        color: #00A97F;
     }
+       
+    .botao::after, .botao::before {
+        content: '';
+        display: block;
+        height: 100%;
+        width: 100%;
+        transform: skew(90deg) translate(-50%, -50%);
+        position: absolute;
+        inset: 50%;
+        left: 25%;
+        z-index: -1;
+        transition: .8s ease-out;
+        background-color: #00A97F;
+    }
+       
+    .botao::before {
+        top: -50%;
+        left: -25%;
+        transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+    }
+       
+    .botao:hover::before {
+        transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+    }
+       
+    .botao:hover::after {
+        transform: skew(45deg) translate(-50%, -50%);
+    }
+       
+    .botao:hover {
+        color: #0a191e;
+    }
+       
+    .botao:active {
+        background-color: #0a191e;
+        filter: brightness(.7);
+        transform: scale(.98);
+    }
+    /* ------------------------------------------------ */
     
     main {
         margin: auto;
