@@ -107,9 +107,11 @@
         text-align: center;
     }
 
+   
+
     /* ------inicio nav------ */
     .botao {
-        
+        margin: 5px;
         padding: 5px;
         background-color: #0a191e;
         border-radius: 6px;
@@ -117,7 +119,6 @@
         box-shadow: 1px 1px 5px black;
         transition: .5s;
         position: relative;
-        left: 100px;
         overflow: hidden;
         cursor: pointer;
         z-index: 1;
@@ -166,6 +167,8 @@
         filter: brightness(.7);
         transform: scale(.98);
     }
+
+    
     /* ------fim nav------ */
 
 }    
