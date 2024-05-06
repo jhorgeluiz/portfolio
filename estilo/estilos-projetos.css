@@ -57,17 +57,14 @@
     }
 
     section {
-        
         margin-bottom: 20px;
         box-shadow: 1px 1px 5px;
-        
         position: relative;
         height: 490px;
     }
 
     .tituloprojeto {
         font-family: Arial, Helvetica, sans-serif;
-        
         color: antiquewhite;
         position: relative;
         box-shadow: 1px 0.5px 5px 0.5px #8a8787;
@@ -82,8 +79,6 @@
 
     .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais {
         font-family: 'Impact';
-        
-        
         border-radius: 20px;
         position: relative;
         top: 35px;
@@ -106,8 +101,6 @@
         margin-left: 10px;
         text-align: center;
     }
-
-   
 
     /* ------inicio nav------ */
     .botao {
@@ -238,7 +231,6 @@
     
     .tituloprojeto {
         font-family: Arial, Helvetica, sans-serif;
-        
         color: white;
         position: relative;
         box-shadow: 1px 1px 3px black;
@@ -268,9 +260,7 @@
     p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais {
         font-family: Arial, Helvetica, sans-serif;
         text-align: justify;
-
         box-shadow: 1px 1px 5px black;
-        
         margin-left: 20px;
         padding: 10px;
         width: 400px;
@@ -336,10 +326,7 @@
         filter: brightness(.7);
         transform: scale(.98);
     }
-
-    
    /* ------fim nav------ */
-    
 }
 
 /* ====================CAPA TELA GRANDE==================== */
@@ -353,7 +340,6 @@
     header {      
         min-width: 375px;
         background-image: linear-gradient(to top, #0a191e, #0a191e); 
-        
         height: 250px;
     }
 
@@ -403,14 +389,12 @@
     section {
         box-shadow: 1px 1px 3px black;
         border-radius: 5px;
-        position: relative;
-        margin-bottom: 20px;
-        height: 650px;
+        margin-bottom: 40px;
+        height: 550px;
     }
 
     .tituloprojeto {
         font-family: Arial, Helvetica, sans-serif;
-         
         color: antiquewhite;
         position: relative;
         box-shadow: 1px 1px 5px black;
@@ -424,13 +408,8 @@
     }
 
     .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais {
-        font-family: Arial, Helvetica, sans-serif;
-        
-        
-        border-radius: 20px;
         position: relative;
-        top: 35px;
-        height: 530px;
+        top: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -441,20 +420,22 @@
         border-bottom-right-radius: 30px;
         border-style: none;
         box-shadow: 3px 3px 8px black;
-        width: 300px;
-        height: 500px;
+        width: 250px;
+        height: 400px;
     }
     p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais {
         font-family: Arial, Helvetica, sans-serif;
         text-align: justify;
+        font-size: 20px;
         box-shadow: 1px 1px 5px black;
         margin-left: 10px;
         padding: 10px;
-        width: 400px;
+        width: 500px;
     }
     
     /* ------inicio nav------ */
     .botao {
+        
         margin: 10px;
         padding: 10px;
         background-color: #0a191e;

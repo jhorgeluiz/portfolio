@@ -6,18 +6,12 @@
 @media screen and (min-width: 375px) and (max-width: 768px) {
     
     body {
-        background-image: url("../imagens/fundo3.png");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-attachment: fixed;
+        background-color: #aaa8a8;  
         margin: 0px;
     }
     header {      /* principal */
         min-width: 375px;
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        box-shadow: 0px 2px 5px black;
-        border-bottom-left-radius:  30px;
-        border-bottom-right-radius: 30px;
+        background-color: #0a191e; 
         height: 210px;
     }
 
@@ -30,24 +24,26 @@
         box-shadow: 0px 3px 7px black;
         margin-top: 10px;
         width: 100px;
-        background-color: aliceblue;
+        background-color: #aaa8a8;
         border-radius: 100px;
     }
     .container > h1 {
         font-family: Arial, Helvetica, sans-serif;
         text-shadow: 0px 5px 5px black;
         font-size: 60px;
-        color: white;
+        color: antiquewhite;
         margin: 0px;
     }
 
     header > h2 {
+        color: antiquewhite;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         padding: 5px;
         margin: 0px;
     }
     header > h4 {
+        color: antiquewhite;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         margin: 0px;
@@ -61,27 +57,23 @@
     }
 
     .caixadiv {
-        background-image: linear-gradient(to top, #236a6285, #79f8e983);
-        border-radius: 20px;
+        box-shadow: 1px 1px 5px black;
+        border-radius: 5px;
         top: 20px;
-        height: 375px;
+        height: 390px;
     }
     .caixadiv > h1 {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        border-radius: 20px;
-        text-shadow: 0px 5px 5px black;
-        box-shadow: 2px 2px 8px black;
+        border-radius: 5px;
+        text-shadow: 1px 1px 5px black;
+        box-shadow: 1px 1px 5px black;
         text-align: center;
-        color: #f7f2f2;
-        position: relative;
-        top: 10px;
+        color: antiquewhite;
     }
 
     .containerzap,.containergithub,.containerinstagram,.containerlinkedin {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62);
-        box-shadow: 1px 1px 8px black;
-        text-shadow: 0px 5px 5px black;
-        border-radius: 20px;
+        box-shadow: 1px 1px 5px black;
+        text-shadow: 1px 1px 5px black;
+        border-radius: 5px;
         margin-top: 20px;
         width: 250px;
         display: flex;
@@ -97,56 +89,49 @@
         width: 30px;
     }
     h3 {  /* todos */
-        color: white;
+        color: antiquewhite;
     }
-    a {
-        text-decoration: none;
+    a:hover {
+        text-decoration: underline;
     }
-
 }
-
 
 /* ====================CAPA TELA MEDIA==================== */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
     
     body {
-        background-image: url("../imagens/fotofundo1.jpg");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-attachment: fixed;
+        background-color: #aaa8a8;
         margin: 0px;
     }
-    header {      /* principal */
+    header {      
         min-width: 375px;
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        box-shadow: 0px 2px 5px black;
-        border-bottom-left-radius:  30px;
-        border-bottom-right-radius: 30px;
+        background-color: #0a191e; 
         height: 210px;
     }
     
-    .container {  /* header */
-        display: flex;  /* anotar */
-        align-items: center;      /* anotar */
-        justify-content: center; /* anotar */
+    .container {   /* principal */
+        display: flex; 
+        align-items: center;      
+        justify-content: center; 
     }
     .container > img {
         box-shadow: 0px 3px 7px black;
         margin-top: 10px;
         width: 100px;
-        background-color: aliceblue;
+        background-color: #aaa8a8;
         border-radius: 100px;
     }
     .container > h1 {
         font-family: Arial, Helvetica, sans-serif;
         text-shadow: 0px 5px 5px black;
         font-size: 80px;
-        color: white;
+        color: antiquewhite;
         margin: 0px;
     }
     
     header > h2 {
+        color: antiquewhite;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         font-size: 30px;
@@ -155,6 +140,7 @@
         margin-bottom: 0px;
     }
     header > h4 {
+        color: antiquewhite;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         margin: 0px;
@@ -170,27 +156,24 @@
     }
     
     .caixadiv {
-        background-image: linear-gradient(to top, #236a6285, #79f8e983);
-        border-radius: 20px;
-        height: 300px;
+        box-shadow: 1px 1px 5px black;
+        border-radius: 5px;
+        height: 250px;
         width: 667px;
     }
 
     .caixadiv > h1 {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        border-radius: 20px;
-        text-shadow: 0px 5px 5px black;
+        box-shadow: 1px 1px 5px black;
+        border-radius: 5px;
+        text-shadow: 0px 1px 5px black;
         text-align: center;
-        color: #f7f2f2;
-        position: relative;
-        top: 10px;
+        color: antiquewhite;
     }
 
     .containerzap,.containergithub,.containerinstagram,.containerlinkedin {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62);
-        box-shadow: 1px 1px 8px black;
-        text-shadow: 0px 5px 5px black;
-        border-radius: 20px;
+        box-shadow: 1px 1px 5px black;
+        text-shadow: 1px 1px 5px black;
+        border-radius: 5px;
         margin-top: 20px;
         margin: 10px;
         width: 250px;
@@ -206,14 +189,11 @@
         width: 30px;
     }
     h3 {  /* todos */
-        color: white;
+        color: antiquewhite;
     }
-    a {
-        text-decoration: none;
-    }
-    
-    
-    
+    a:hover {
+        text-decoration: underline;
+    }  
 }
 
 /* ====================CAPA TELA GRANDE==================== */
@@ -221,42 +201,37 @@
 @media screen and (min-width: 992px) {
     
     body {
-        background-image: url("../imagens/fotofundo1.jpg");
-        background-repeat: no-repeat;
-        background-position: center; 
-        background-attachment: fixed;
+        background-color: #aaa8a8;
         margin: 0px;
     }
-    header {      /* principal */
+    header {     
         min-width: 375px;
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        box-shadow: 0px 2px 5px black;
-        border-bottom-left-radius:  30px;
-        border-bottom-right-radius: 30px;
+        background-color: #0a191e; 
         height: 210px;
     }
 
-    .container {  /* header */
-        display: flex;  /* anotar */
-        align-items: center;      /* anotar */
-        justify-content: center; /* anotar */
+    .container {   /* principal */
+        display: flex; 
+        align-items: center;      
+        justify-content: center;
     }
     .container > img {
         box-shadow: 0px 3px 7px black;
         margin-top: 10px;
         width: 100px;
-        background-color: aliceblue;
+        background-color: #aaa8a8;
         border-radius: 100px;
     }
     .container > h1 {
         font-family: Arial, Helvetica, sans-serif;
         text-shadow: 0px 5px 5px black;
         font-size: 80px;
-        color: white;
+        color: antiquewhite;
         margin: 0px;
     }
 
     header > h2 {
+        color: antiquewhite;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         font-size: 30px;
@@ -265,6 +240,7 @@
         margin-bottom: 0px;
     }
     header > h4 {
+        color: antiquewhite;
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         margin: 0px;
@@ -278,27 +254,24 @@
     }
 
     .caixadiv {
-        background-image: linear-gradient(to top, #236a6285, #79f8e983);
-        border-radius: 20px;
+        box-shadow: 1px 1px 5px black;
+        border-radius: 5px;
         top: 20px;
         height: 360px;
     }
 
     .caixadiv > h1 {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62); 
-        border-radius: 20px;
+        box-shadow: 1px 1px 5px black;
+        border-radius: 5px;
         text-shadow: 0px 5px 5px black;
         text-align: center;
         color: #f7f2f2;
-        position: relative;
-        top: 10px;
     }
 
     .containerzap,.containergithub,.containerinstagram,.containerlinkedin {
-        background-image: linear-gradient(to top, #79f8e9e7, #236A62);
-        box-shadow: 1px 1px 8px black;
-        text-shadow: 0px 5px 5px black;
-        border-radius: 20px;
+        box-shadow: 1px 1px 5px black;
+        text-shadow: 1px 1px 5px black;
+        border-radius: 5px;
         text-decoration: none;
         margin-top: 20px;
         margin: 10px;
@@ -314,10 +287,9 @@
         width: 30px;
     }
     h3 {  /* todos */
-        color: white;
+        color: antiquewhite;
     }
-    a {
-        text-decoration: none;
+    a:hover {
+        text-decoration: underline;
     }
-   
 }
