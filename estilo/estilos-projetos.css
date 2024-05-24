@@ -77,7 +77,7 @@
         top: 20px;
     }
 
-    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais {
+    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais,.containerrick,.containercheck-out {
         font-family: 'Impact';
         border-radius: 20px;
         position: relative;
@@ -85,7 +85,7 @@
         height: 400px;
         display: flex; 
     }
-    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais {
+    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais,.imgrick,.imgchek-out {
         margin: 10px;
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
@@ -96,7 +96,7 @@
         position: relative;
         top: 40px;
     }
-    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais {
+    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais,.textorick,.textocheck-out {
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 10px;
         text-align: center;
@@ -243,21 +243,21 @@
         top: 20px;
     }
 
-    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais {
+    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais,.containerrick,.containercheck-out {
         font-family: Arial, Helvetica, sans-serif;
         position: relative;
         top: 35px;
         height: 265px;
         display: flex; 
     }
-    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais {
+    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais,.imgrick,.imgchek-out {
         margin: 10px;
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
         border-style: none;
         box-shadow: 3px 3px 8px black;
     }
-    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais {
+    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais,.textorick,.textocheck-out {
         font-family: Arial, Helvetica, sans-serif;
         text-align: justify;
         box-shadow: 1px 1px 5px black;
@@ -407,14 +407,14 @@
         top: 20px;
     }
 
-    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais {
+    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais,.containerrick,.containercheck-out {
         position: relative;
         top: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais {
+    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais,.imgrick,.imgchek-out {
         margin: 10px;
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
@@ -423,7 +423,7 @@
         width: 250px;
         height: 400px;
     }
-    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais {
+    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais,.textorick,.textocheck-out {
         font-family: Arial, Helvetica, sans-serif;
         text-align: justify;
         font-size: 20px;
