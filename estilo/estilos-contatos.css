@@ -92,7 +92,7 @@
     h3 {  /* todos */
         color: antiquewhite;
     }
-    a:hover {
+    a {
         text-decoration: none;
     }
 }
@@ -155,6 +155,8 @@
     }
     
     .caixadiv {
+        position: relative;
+        right: 30px;
         background-color: #aaa8a8;
         box-shadow: 1px 1px 5px black;
         border-radius: 5px;
