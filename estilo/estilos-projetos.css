@@ -214,15 +214,15 @@
     
     main {
         margin: auto;
-        margin-top: 40px;
-        max-width: 600px;
+        position: relative;
+        top: 10px;
+        width: 600px;
     }
     
     section {
         background-color: #aaa8a8;
         box-shadow: 1px 1px 3px black;
         border-radius: 5px;
-        position: relative;
         margin-bottom: 20px;
         height: 380px;
         width: 667px;

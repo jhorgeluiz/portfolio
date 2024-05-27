@@ -83,6 +83,7 @@
         left: 60px;
     }
     .zap,.github,.instagram,.linkedin {
+        text-decoration: none;
         margin: 10px;
         display: block;
         border-radius: 50px;
@@ -160,6 +161,7 @@
         border-radius: 5px;
         height: 250px;
         width: 667px;
+        margin-bottom: 20px;
     }
 
     .caixadiv > h1 {
