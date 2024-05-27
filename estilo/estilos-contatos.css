@@ -194,7 +194,7 @@
     h3 {  /* todos */
         color: antiquewhite;
     }
-    a:hover {
+    a {
         text-decoration: none;
     }  
 }
@@ -293,6 +293,7 @@
         color: antiquewhite;
     }
     a:hover {
-        text-decoration: none;
+        text-decoration: underline ;
+        
     }
 }
