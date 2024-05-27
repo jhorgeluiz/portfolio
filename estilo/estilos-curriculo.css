@@ -5,12 +5,11 @@
 @media screen and (min-width: 375px) and (max-width: 768px) {
     
     body {
-        background-color:  #aaa8a8;
         margin: 0px;
     }
     header {      
         min-width: 375px;
-        background-image: linear-gradient(to top, #0a191e,#0a191e); 
+        background-color:#0a191e; 
         height: 210px;
     }
 
@@ -56,7 +55,7 @@
     }
 
     .caixadiv > h1 {
-         
+        background-color: #aaa8a8;
         border-radius: 5px;
         box-shadow: 1px 1px 5px black;
         text-shadow: 0px 1px 5px black;
@@ -67,7 +66,7 @@
         padding: 10px;
     }
     .caixadiv > h3 {
-        
+        background-color: #aaa8a8;
         border-radius: 5px;
         text-shadow: 0px 1px 5px black;
         box-shadow: 1px 1px 5px black;
@@ -93,7 +92,6 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
     
     body {
-        background-color: #aaa8a8;
         margin: 0px;
     }
 
@@ -149,6 +147,7 @@
     }
     
     .caixadiv {
+        background-color: #aaa8a8;
         box-shadow: 1px 1px 5px black;
         border-radius: 5px;
         height: 270px;
@@ -156,6 +155,7 @@
     }
 
     .caixadiv > h1 {
+        background-color: #aaa8a8;
         border-radius: 5px;
         text-shadow: 0px 1px 5px black;
         box-shadow: 1px 1px 8px black;
@@ -164,6 +164,7 @@
         padding: 10px;
     }
     .caixadiv > h3 {
+        background-color: #aaa8a8;
         border-radius: 5px;
         text-shadow: 0px 1px 5px black;
         box-shadow: 1px 1px 5px black;
@@ -188,7 +189,6 @@
 @media screen and (min-width: 992px) {
     
     body {
-        background-color: #aaa8a8;
         margin: 0px;
     }
     header {      
@@ -241,6 +241,7 @@
     }
 
     .caixadiv {
+        background-color: #aaa8a8;
         box-shadow: 1px 1px 8px black;
         border-radius: 5px;
         top: 20px;
