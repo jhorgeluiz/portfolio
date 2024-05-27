@@ -14,10 +14,10 @@
         height: 210px;
     }
 
-    .container {  /* header */
-        display: flex;  /* anotar */
-        align-items: center;      /* anotar */
-        justify-content: center; /* anotar */
+    .container {  
+        display: flex;  
+        align-items: center;      
+        justify-content: center; 
     }
     .container > img {
         box-shadow: 0px 3px 7px black;
