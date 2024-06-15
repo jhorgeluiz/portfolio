@@ -339,7 +339,7 @@
     }
     header {      
         min-width: 375px;
-        background-image: linear-gradient(to top, #0a191e, #0a191e); 
+        background-color: #0a191e; 
         height: 250px;
     }
 
@@ -348,12 +348,14 @@
         align-items: center;      
         justify-content: center; 
     }
+    
     .container > img {
         box-shadow: 0px 3px 7px black;
         margin-top: 10px;
         width: 140px;
         background-color: #aaa8a8;
         border-radius: 100px;
+         
     }
     .container > h1 {
         font-family: Arial, Helvetica, sans-serif;
@@ -398,11 +400,10 @@
         font-family: Arial, Helvetica, sans-serif;
         color: antiquewhite;
         position: relative;
-        box-shadow: 1px 1px 5px black;
+        border-bottom: 2px solid #0a191e;
         text-shadow: 1px 1px 5px black;
         text-align: center;
         font-size: 30px;
-        border-radius: 5px;
         margin: 5px;
         padding: 10px;
         top: 20px;

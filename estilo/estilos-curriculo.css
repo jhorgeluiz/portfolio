@@ -250,9 +250,8 @@
     }
 
     .caixadiv > h1 {
-        border-radius: 5px;
+        border-bottom: 2px solid #0a191e;
         text-shadow: 0px 1px 5px black;
-        box-shadow: 1px 1px 5px black;
         text-align: center;
         color: antiquewhite;
         padding: 10px;
@@ -260,7 +259,7 @@
     .caixadiv > h3 {
         border-radius: 5px;
         text-shadow: 0px 1px 5px black;
-        box-shadow: 1px 1px 5px black;
+        /* box-shadow: 1px 1px 5px black; */
         text-align: center;
         color: antiquewhite;
         padding: 5px;
