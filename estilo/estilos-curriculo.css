@@ -49,38 +49,42 @@
     }
 
     main {
-        margin: auto;
-        margin-top: 20px;
         max-width: 375px; 
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .caixadiv {
+        background-color: #eeeeee;
+        box-shadow: 1px 1px 5px black;
+        border-radius: 5px;
+        height: 270px;
+        width: 300px;
     }
 
     .caixadiv > h1 {
-        background-color: #aaa8a8;
-        border-radius: 5px;
-        box-shadow: 1px 1px 5px black;
-        text-shadow: 0px 1px 5px black;
+        border-bottom: 2px solid #0a191e;
+        text-shadow: 0px 1px 2px black;
         text-align: center;
-        color: antiquewhite;
-        position: relative;
-        top: 10px;
         padding: 10px;
+        margin-top: 1px;
     }
     .caixadiv > h3 {
-        background-color: #aaa8a8;
-        border-radius: 5px;
-        text-shadow: 0px 1px 5px black;
-        box-shadow: 1px 1px 5px black;
+        text-shadow: 0px 1px 2px black;
         text-align: center;
-        color: antiquewhite;
-        padding: 10px;
+        margin: 0px;
     }
-    a > img {
-        
+    a img {
         border-radius: 5px;
         box-shadow: 5px 5px 8px black;
         width: 100px;
         padding: 10px;
-        transform: translateX(130px);
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     a > img:hover {
         background-color: #d8d5d5;
@@ -139,15 +143,16 @@
     }
     
     main {
-        margin: auto;
         margin-top: 20px;
         max-width: 600px;
-        position: relative;
-        right: 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     
     .caixadiv {
-        background-color: #aaa8a8;
+        background-color: #eeeeee;
         box-shadow: 1px 1px 5px black;
         border-radius: 5px;
         height: 270px;
@@ -156,21 +161,15 @@
     }
 
     .caixadiv > h1 {
-        background-color: #aaa8a8;
+        border-bottom: 2px solid #0a191e;
         border-radius: 5px;
-        text-shadow: 0px 1px 5px black;
-        box-shadow: 1px 1px 8px black;
+        text-shadow: 0px 1px 2px black;
         text-align: center;
-        color: antiquewhite;
         padding: 10px;
     }
     .caixadiv > h3 {
-        background-color: #aaa8a8;
-        border-radius: 5px;
-        text-shadow: 0px 1px 5px black;
-        box-shadow: 1px 1px 5px black;
+        text-shadow: 0px 1px 2px black;
         text-align: center;
-        color: antiquewhite;
         padding: 5px;
     }
     a > img {
@@ -178,7 +177,10 @@
         box-shadow: 1px 1px 5px black;
         width: 100px;
         padding: 10px;
-        transform: translateX(250px);
+        position: absolute;
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     a > img:hover {
         background-color: #d3d0d0;
@@ -236,40 +238,41 @@
     }
 
     main {
-        margin: auto;
-        margin-top: 20px;
         max-width: 1000px;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .caixadiv {
-        background-color: #aaa8a8;
-        box-shadow: 1px 1px 8px black;
+        background-color: #eeeeee;
+        box-shadow: 1px 1px 2px black;
         border-radius: 5px;
-        top: 20px;
-        height: 360px;
+        width: 500px;
+        height: 250px;
     }
 
     .caixadiv > h1 {
         border-bottom: 2px solid #0a191e;
-        text-shadow: 0px 1px 5px black;
+        text-shadow: 0px 1px 2px black;
         text-align: center;
-        color: antiquewhite;
         padding: 10px;
     }
     .caixadiv > h3 {
-        border-radius: 5px;
-        text-shadow: 0px 1px 5px black;
-        /* box-shadow: 1px 1px 5px black; */
+        text-shadow: 0px 1px 2px black;
         text-align: center;
-        color: antiquewhite;
-        padding: 5px;
+
     }
     a > img {
         padding: 10px; 
         border-radius: 10px;
         box-shadow: 1px 1px 5px black;
-        width: 100px;
-        transform: translateX(440px);
+        width: 80px;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     a > img:hover {
         background-color: #d3d0d0;

@@ -8,7 +8,6 @@
         height: 100%;
     }
     body {
-        /* background-color: antiquewhite; */
         min-height: 100%;
         display: flex;
         flex-direction: column;
@@ -219,8 +218,6 @@
         display: flex;
         justify-content: center;
         background-color: #0a191e;
-        /* margin-top: 10px; */
-        /* margin: 13px; */
     }
     
     .botao {
@@ -228,7 +225,6 @@
         background-color: #0a191e;
         border-radius: 6px;
         border-style: none;
-        /* border: .3px solid #00A97F; */
         transition: .5s;
         position: relative;
         overflow: hidden;
@@ -381,7 +377,6 @@
         background-color: #0a191e;
         border-radius: 6px;
         border-style: none;
-        /* border: .3px solid #00A97F; */
         transition: .5s;
         position: relative;
         overflow: hidden;
