@@ -75,7 +75,7 @@
         top: 20px;
     }
 
-    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais,.containerrick,.containerarte-bela,.containersaude,.containerBD,.containertabela,.container-checkout {
+    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais,.containerrick,.containerarte-bela,.containersaude,.containerBD,.containertabela,.container-checkout,.containercripto,.containerpokedex {
         font-family: 'Impact';
         border-radius: 20px;
         position: relative;
@@ -83,7 +83,7 @@
         height: 500px;
         display: flex; 
     }
-    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais,.imgrick,.imgarte-bela,.imgsaude,.imgBD,.imgtabela,.img-checkout {
+    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais,.imgrick,.imgarte-bela,.imgsaude,.imgBD,.imgtabela,.img-checkout,.imgcripto,.imgpokedex {
         margin: 10px;
         border-radius: 10px;
         border-style: none;
@@ -92,7 +92,7 @@
         position: relative;
         top: 40px;
     }
-    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais,.textorick,.textoarte-bela,.textosaude,.textoBD,.textotabela,.texto-checkout {
+    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais,.textorick,.textoarte-bela,.textosaude,.textoBD,.textotabela,.texto-checkout,.textocripto,.textopokedex {
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 10px;
         text-align: start;
@@ -240,18 +240,18 @@
         top: 20px;
     }
 
-    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais,.containerrick,.containerarte-bela,.containersaude,.containerBD,.containertabela,.container-checkout {
+    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais,.containerrick,.containerarte-bela,.containersaude,.containerBD,.containertabela,.container-checkout,.containercripto,.containerpokedex {
         font-family: Arial, Helvetica, sans-serif;
         position: relative;
         top: 35px;
         height: 270px;
         display: flex; 
     }
-    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais,.imgrick,.imgarte-bela,.imgsaude,.imgBD,.imgtabela,.img-checkout {
+    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais,.imgrick,.imgarte-bela,.imgsaude,.imgBD,.imgtabela,.img-checkout,.imgcripto,.imgpokedex {
         margin: 10px;
         border-radius: 10px;
     }
-    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais,.textorick,.textoarte-bela,.textosaude,.textoBD,.textotabela,.texto-checkout {
+    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais,.textorick,.textoarte-bela,.textosaude,.textoBD,.textotabela,.texto-checkout,.textocripto,.textopokedex {
         font-family: Arial, Helvetica, sans-serif;
         text-align: justify;
         box-shadow: 1px 1px 2px #0a191e;
@@ -402,20 +402,20 @@
         top: 20px;
     }
 
-    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais,.containerrick,.containerarte-bela,.containersaude,.containerBD,.containertabela,.container-checkout {
+    .containerlogin,.containermat,.containerimc,.containercordel,.containerandroid,.containersociais,.containerrick,.containerarte-bela,.containersaude,.containerBD,.containertabela,.container-checkout,.containercripto,.containerpokedex {
         position: relative;
         top: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais,.imgrick,.imgarte-bela,.imgsaude,.imgBD,.imgtabela,.img-checkout {
+    .imglogin,.imgmat,.imgimc,.imgcordel,.imgandroid,.imgsociais,.imgrick,.imgarte-bela,.imgsaude,.imgBD,.imgtabela,.img-checkout,.imgcripto,.imgpokedex {
         margin: 10px;
         border-radius: 10px;
         width: 250px;
         height: 400px;
     }
-    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais,.textorick,.textoarte-bela,.textosaude,.textoBD,.textotabela,.texto-checkout {
+    p.textologin,.textomat,.textoimc,.textocordel,.textoandroid,.textosociais,.textorick,.textoarte-bela,.textosaude,.textoBD,.textotabela,.texto-checkout,.textocripto,.textopokedex {
         font-family: Arial, Helvetica, sans-serif;
         text-align: justify;
         font-size: 20px;
