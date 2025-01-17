@@ -70,7 +70,7 @@
         padding: 10px;
     }
 
-    .botao {
+    .botao, .botao2 {
         padding: 0.8em 0.8em;
         background-color: #0a191e;
         border-radius: 6px;
@@ -85,6 +85,9 @@
         font-family: 'Roboto', 'Segoe UI', sans-serif;
         text-transform: uppercase;
         color: #00A97F;
+    }
+    .botao2 {
+        font-size: 8px;
     }
        
     .botao::after, .botao::before {
