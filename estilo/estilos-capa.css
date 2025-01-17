@@ -20,7 +20,6 @@
         flex-direction: column;
     }
     header {      /* principal */
-        /* min-width: 100%; */
         background-color:#5c7e8a; 
         height: 250px;
     }
@@ -82,7 +81,7 @@
         cursor: pointer;
         z-index: 1;
         font-weight: 300;
-        font-size: 8px;
+        font-size: 15px;
         font-family: 'Roboto', 'Segoe UI', sans-serif;
         text-transform: uppercase;
         color: #00A97F;
@@ -211,7 +210,6 @@
     .caixadiv {
         box-shadow: 1px 1px 2px black;
         border-radius: 10px;
-        /* padding: 5px; */
         margin-bottom: 20px;
         display: flex;
         justify-content: space-around;
@@ -229,58 +227,61 @@
     }
 
     .zap,.github,.instagram,.linkedin {  /* imagens */
-        /* margin: 10px; */
         border-radius: 50px;
         width: 20px;
         height: 20px;
     }
 
     a:hover {
-        text-decoration: underline ;
+        text-decoration: underline;
     }
 }  
 
 /* ====================CAPA TELA MEDIA==================== */
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 769px) and (max-width: 991px){
     
     html {
         height: 100%;
     }
     body {
+        background-image: url('../imagens/imgfundo.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
         margin: 0px;
         min-height: 100%;
         display: flex;
         flex-direction: column;
-        margin: 0px;
     }
-
     header {      /* principal */
         min-width: 375px;
-        background-color:#0a191e; 
-        height: 210px;
+        background-color:#5c7e8a; 
+        height: 250px;
     }
-    
+
     .container {  
         display: flex;  
-        align-items: center;     
+        align-items: center;      
         justify-content: center; 
     }
     .container > img {
         box-shadow: 0px 3px 7px black;
         margin-top: 10px;
-        width: 100px;
+        width: 150px;
         background-color: #aaa8a8;
         border-radius: 100px;
     }
     .container > h1 {
         font-family: Arial, Helvetica, sans-serif;
-        text-shadow: 0px 5px 5px black;
+        text-shadow: 0px 2px 2px black;
+        text-decoration-line: underline;
         font-size: 80px;
         color: antiquewhite;
         margin: 0px;
     }
-    
+
     header > h2 {
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
@@ -302,9 +303,10 @@
     nav {
         display: flex;
         justify-content: center;
-        background-color: #0a191e;
+        background-color: #5c7e8a;
+        padding: 10px;
     }
-    
+
     .botao {
         padding: 0.8em 1.75em;
         background-color: #0a191e;
@@ -362,23 +364,74 @@
     /* ------fim nav------ */
 
     p.apresent {
+        background-color: #f0f8ff6b;
         font-family: Arial, Helvetica, sans-serif;
-        box-shadow: 1px 0.5px 5px 0.5px black;
+        padding: 30px;
+        border-radius: 10px;
+        margin: auto;
+        width: 700px;
+        color: black;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .txtprincprojetos {
+        padding-top: 2em;
+        color: antiquewhite;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .section_apresent {
+        background-color: #f0f8ff6b;
+        padding: 30px;
+    }
+
+    .section_projetos,.section_curriculo {
+        margin-bottom: 2em;
+        text-align: center;
+        padding: 20px;
+        background-color: #f0f8ff34;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tituloprojeto {
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 1px 1px 2px black;
         text-align: center;
         font-size: 20px;
-        margin: auto;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 500px;
-        padding: 10px; 
+        border-bottom: 2px solid #0a191e;
+        padding: 8px;
+        margin: 5px;
+    }
+
+    .containerarte-bela,.containerBD,.container-checkout,.container-curriculo {
+        background-color: #ffffff80;
+        font-family: 'Impact';
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 400px;
+    }
+    .imgarte-bela,.imgBD,.img-checkout {
+        margin: 10px;
+        border-radius: 10px;
+        border-style: none;
+        width: 250px;
+        height: 450px;
+        margin-top: 40px;
+    }
+    p.textoarte-bela,.textoBD,.texto-checkout,.texto_curriculo {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
     }
 
     footer {
-        margin-top: auto;
         background-color: #0a191e;
+        margin-top: auto;
         color: antiquewhite;
         text-align: center;
-        padding: 10px;
+        padding: 8px;
     }
 
     .footerlink {
@@ -390,6 +443,37 @@
         position: relative;
         top: 5px;
         margin: 10px;
+    }
+
+    /* footer */
+    .caixadiv {
+        box-shadow: 1px 1px 2px black;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .containerzap,.containergithub,.containerinstagram,.containerlinkedin {
+        background-color: #eeeeee;
+        box-shadow: 0.3px 0.3px 1px black;
+        border-radius: 5px;
+        text-decoration: none;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+    }
+
+    .zap,.github,.instagram,.linkedin {  /* imagens */
+        margin: 10px;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+    }
+
+    a:hover {
+        text-decoration: underline ;
     }
 }
 
