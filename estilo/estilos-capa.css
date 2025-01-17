@@ -316,6 +316,11 @@
         height: 100%;
     }
     body {
+        background-image: url('../imagens/imgfundo.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
         margin: 0px;
         min-height: 100%;
         display: flex;
@@ -430,8 +435,7 @@
 
     p.apresent {
         font-family: Arial, Helvetica, sans-serif;
-        box-shadow: 0.1px 0.1px 2px black;
-        padding: 10px;
+        padding: 30px;
         margin: auto;
         position: relative;
         top: 10px;
@@ -439,6 +443,59 @@
         color: black;
         text-align: center;
         font-size: 30px;
+    }
+
+    .txtprincprojetos {
+        padding-top: 2em;
+        color: antiquewhite;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .section_apresent {
+        background-color: #f0f8ff6b;
+        padding: 30px;
+    }
+
+    .section_projetos,.section_curriculo {
+        margin-bottom: 5em;
+        text-align: center;
+        padding: 20px;
+        background-color: #f0f8ff34;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tituloprojeto {
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        text-shadow: 1px 1px 2px black;
+        text-align: center;
+        font-size: 20px;
+        border-bottom: 2px solid #0a191e;
+        padding: 8px;
+        margin: 5px;
+        top: 20px;
+    }
+
+    .containerarte-bela,.containerBD,.container-checkout,.container-curriculo {
+        background-color: #ffffff80;
+        font-family: 'Impact';
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        width: 400px;
+    }
+    .imgarte-bela,.imgBD,.img-checkout {
+        margin: 10px;
+        border-radius: 10px;
+        border-style: none;
+        width: 250px;
+        height: 450px;
+        margin-top: 40px;
+    }
+    p.textoarte-bela,.textoBD,.texto-checkout,.texto_curriculo {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
     }
 
     footer {
@@ -458,6 +515,37 @@
         position: relative;
         top: 5px;
         margin: 10px;
+    }
+
+    /* footer */
+    .caixadiv {
+        box-shadow: 1px 1px 2px black;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .containerzap,.containergithub,.containerinstagram,.containerlinkedin {
+        background-color: #eeeeee;
+        box-shadow: 0.3px 0.3px 1px black;
+        border-radius: 5px;
+        text-decoration: none;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+    }
+
+    .zap,.github,.instagram,.linkedin {  /* imagens */
+        margin: 10px;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+    }
+
+    a:hover {
+        text-decoration: underline ;
     }
 }
 
