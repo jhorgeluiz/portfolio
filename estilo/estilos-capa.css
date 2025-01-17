@@ -70,7 +70,7 @@
         padding: 10px;
     }
 
-    .botao, .botao2 {
+    .botao, .botao2  {
         padding: 0.8em 0.8em;
         background-color: #0a191e;
         border-radius: 6px;
@@ -225,8 +225,9 @@
         font-size: 8px;
         display: inline-flex;
         justify-content: center;
+        align-content: center;
         align-items: center;
-        width: 80px;
+        width: 110px;
     }
 
     .zap,.github,.instagram,.linkedin {  /* imagens */
