@@ -2,7 +2,7 @@
 
 /* ====================CAPA TELA PEQUENA==================== */
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 360px) and (max-width: 768px) {
     
     html {
         height: 100%;
@@ -80,7 +80,7 @@
         cursor: pointer;
         z-index: 1;
         font-weight: 300;
-        font-size: 17px;
+        font-size: 12px;
         font-family: 'Roboto', 'Segoe UI', sans-serif;
         text-transform: uppercase;
         color: #00A97F;
@@ -145,13 +145,13 @@
         padding: 30px;
     }
 
-    .section_projetos,.section_curriculo {
-        margin-bottom: 5em;
-        text-align: center;
+    .section_projetos, .section_curriculo {
+        margin-bottom: 2em;
         padding: 20px;
         background-color: #f0f8ff34;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 15px;
     }
 
     .tituloprojeto {
@@ -168,22 +168,22 @@
 
     .containerarte-bela,.containerBD,.container-checkout,.container-curriculo {
         background-color: #ffffff80;
-        font-family: 'Impact';
-        border-top-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        /* width: 400px; */
+        font-family: 'Impact';    
+        text-align: center;    
+        width: 300px;
     }
     .imgarte-bela,.imgBD,.img-checkout {
         margin: 10px;
         border-radius: 10px;
         border-style: none;
-        width: 150px;
-        height: 250px;
+        width: 100px;
+        height: 150px;
         margin-top: 40px;
     }
     p.textoarte-bela,.textoBD,.texto-checkout,.texto_curriculo {
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
+        font-size: 12px;
     }
 
     footer {
@@ -209,7 +209,7 @@
     .caixadiv {
         box-shadow: 1px 1px 2px black;
         border-radius: 10px;
-        padding: 20px;
+        /* padding: 5px; */
         margin-bottom: 20px;
         display: flex;
         justify-content: space-around;
@@ -219,17 +219,18 @@
         box-shadow: 0.3px 0.3px 1px black;
         border-radius: 5px;
         text-decoration: none;
+        font-size: 8px;
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        width: 250px;
+        width: 80px;
     }
 
     .zap,.github,.instagram,.linkedin {  /* imagens */
-        margin: 10px;
+        /* margin: 10px; */
         border-radius: 50px;
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
     }
 
     a:hover {
