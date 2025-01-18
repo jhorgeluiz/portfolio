@@ -267,12 +267,8 @@
     }
     ul > li {
         list-style-type: none;
-        /* margin-right: 25px; */
+        margin-right: 25px;
         font-size: 20px;
-        position: relative;
-        top: 50%;
-        left: 45%;
-        transform: translate(-50%, -50%);
     }
 }  
 
