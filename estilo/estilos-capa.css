@@ -30,7 +30,6 @@
         justify-content: center; 
     }
     .container > img {
-        box-shadow: 0px 3px 7px black;
         margin-top: 10px;
         width: 100px;
         background-color: #aaa8a8;
@@ -81,7 +80,7 @@
         cursor: pointer;
         z-index: 1;
         font-weight: 300;
-        font-size: 15px;
+        font-size: 10px;
         font-family: 'Roboto', 'Segoe UI', sans-serif;
         text-transform: uppercase;
         color: #00A97F;
@@ -191,7 +190,7 @@
     }
 
     footer {
-        background-color: #0a191e;
+        background-color: #5c7e8a;
         margin-top: auto;
         color: antiquewhite;
         text-align: center;
@@ -205,13 +204,12 @@
     span {
         color: antiquewhite;
         position: relative;
-        top: 5px;
+        bottom: 5px;
         margin: 10px;
     }
 
     /* footer */
     .caixadiv {
-        box-shadow: 1px 1px 2px black;
         border-radius: 10px;
         margin-bottom: 20px;
         display: flex;
@@ -219,7 +217,6 @@
     }
     .containerzap,.containergithub,.containerinstagram,.containerlinkedin {
         background-color: #eeeeee;
-        box-shadow: 0.3px 0.3px 1px black;
         border-radius: 5px;
         text-decoration: none;
         font-size: 8px;
@@ -238,6 +235,39 @@
 
     a:hover {
         text-decoration: underline;
+    }
+
+    #modal_habilidades {
+        display: none;
+        background-color: #5c7e8a;
+        color: #eeeeee;
+        text-align: center;
+        border-radius: 10px;
+        width: 320px;
+        height: 380px;
+        position: absolute;
+        top: 78%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .container_botao_modal {
+        display: flex;
+        justify-content: end;
+        margin: 10px;
+    }
+    .botao_fechar_modal {
+        background-color: #0a191e;
+        color: #00A97F;
+        border-radius: 5px;
+        height: 30px;
+        width: 30px;
+        font-weight: bolder;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    ul > li {
+        list-style-type: none;
+        font-size: 20px;
     }
 }  
 
@@ -271,7 +301,6 @@
         justify-content: center; 
     }
     .container > img {
-        box-shadow: 0px 3px 7px black;
         margin-top: 10px;
         width: 150px;
         background-color: #aaa8a8;
@@ -311,7 +340,7 @@
         padding: 10px;
     }
 
-    .botao {
+    .botao, .botao2 {
         padding: 0.8em 1.75em;
         background-color: #0a191e;
         border-radius: 6px;
@@ -431,7 +460,7 @@
     }
 
     footer {
-        background-color: #0a191e;
+        background-color: #5c7e8a;
         margin-top: auto;
         color: antiquewhite;
         text-align: center;
@@ -451,7 +480,6 @@
 
     /* footer */
     .caixadiv {
-        box-shadow: 1px 1px 2px black;
         border-radius: 10px;
         padding: 20px;
         margin-bottom: 20px;
@@ -460,7 +488,6 @@
     }
     .containerzap,.containergithub,.containerinstagram,.containerlinkedin {
         background-color: #eeeeee;
-        box-shadow: 0.3px 0.3px 1px black;
         border-radius: 5px;
         text-decoration: none;
         display: inline-flex;
@@ -511,7 +538,6 @@
         justify-content: center; 
     }
     .container > img {
-        box-shadow: 0px 3px 7px black;
         margin-top: 10px;
         width: 150px;
         background-color: #aaa8a8;
@@ -551,7 +577,7 @@
         padding: 10px;
     }
 
-    .botao {
+    .botao, .botao2 {
         padding: 0.8em 1.75em;
         background-color: #0a191e;
         border-radius: 6px;
@@ -671,7 +697,7 @@
     }
 
     footer {
-        background-color: #0a191e;
+        background-color: #5c7e8a;
         margin-top: auto;
         color: antiquewhite;
         text-align: center;
@@ -691,7 +717,6 @@
 
     /* footer */
     .caixadiv {
-        box-shadow: 1px 1px 2px black;
         border-radius: 10px;
         padding: 20px;
         margin-bottom: 20px;
@@ -700,7 +725,6 @@
     }
     .containerzap,.containergithub,.containerinstagram,.containerlinkedin {
         background-color: #eeeeee;
-        box-shadow: 0.3px 0.3px 1px black;
         border-radius: 5px;
         text-decoration: none;
         display: inline-flex;
@@ -718,6 +742,39 @@
 
     a:hover {
         text-decoration: underline ;
+    }
+
+    #modal_habilidades {
+        display: none;
+        background-color: #5c7e8a;
+        color: #eeeeee;
+        text-align: center;
+        border-radius: 10px;
+        width: 500px;
+        height: 400px;
+        position: absolute;
+        top: 78%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .container_botao_modal {
+        display: flex;
+        justify-content: end;
+        margin: 10px;
+    }
+    .botao_fechar_modal {
+        background-color: #0a191e;
+        color: #00A97F;
+        border-radius: 5px;
+        height: 30px;
+        width: 30px;
+        font-weight: bolder;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    li {
+        list-style-type: none;
+        font-size: 20px;
     }
 }
 
